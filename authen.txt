@@ -1,5 +1,5 @@
 use test;
-drop table if exists sign
+drop table if exists sign;
 create table sign(
    id int(10) primary key auto_increment,
    name varchar(20),
@@ -7,6 +7,6 @@ create table sign(
 );
 
 
-insert into users(name,password) values('jahid','111');
-insert into users(name,password) values('rasel','111');
-insert into users(name,password) values('rahim','111');
+insert into sign(name,password) values('abc','111');
+insert into sign(name,password) values('kawsar','222');
+insert into sign(name,password) values('kk','222');
